@@ -1,0 +1,36 @@
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+    id("androidx.navigation.safeargs.kotlin")
+}
+
+
+apply from: "$rootDir/common.gradle"
+
+android {
+
+    defaultConfig {
+        applicationId "com.kelvinfaria.costumer.app"
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+
+    // Android X
+    implementation ExternalLibs.appCompat
+    implementation ExternalLibs.navigationFragment
+    implementation ExternalLibs.splashScreen
+
+    // Google
+    implementation ExternalLibs.material
+
+    // Koin
+    implementation ExternalLibs.koinCore
+    implementation ExternalLibs.koinAndroid
+
+    implementation project(InternalLibs.coreArch)
+    implementation project(InternalLibs.authentication)
+    implementation project(InternalLibs.home)
+}

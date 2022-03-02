@@ -1,0 +1,32 @@
+plugins {
+    id("com.android.library")
+    id("org.jetbrains.kotlin.android")
+    id("androidx.navigation.safeargs.kotlin")
+}
+
+apply from: "$rootDir/common.gradle"
+
+android {
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    // Android X
+    implementation ExternalLibs.coreKtx
+    implementation ExternalLibs.appCompat
+    implementation ExternalLibs.constraintLayout
+    implementation ExternalLibs.legacySupport
+    implementation ExternalLibs.navigationFragment
+    implementation ExternalLibs.navigationUi
+
+    // Google
+    implementation ExternalLibs.material
+
+    // Koin
+    implementation ExternalLibs.koinViewModel
+
+    implementation project(InternalLibs.coreArch)
+}

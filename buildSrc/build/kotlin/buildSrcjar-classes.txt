@@ -1,0 +1,1 @@
+C:\Users\kelvi\Documents\projects\personal\android-arch-sample\buildSrc\build\classes\kotlin\main\ExternalLibs.class;C:\Users\kelvi\Documents\projects\personal\android-arch-sample\buildSrc\build\classes\kotlin\main\InternalLibs.class;C:\Users\kelvi\Documents\projects\personal\android-arch-sample\buildSrc\build\classes\kotlin\main\Versions.class

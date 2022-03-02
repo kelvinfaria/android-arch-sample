@@ -1,0 +1,24 @@
+plugins {
+    id("com.android.library")
+    id("org.jetbrains.kotlin.android")
+}
+
+apply from: "$rootDir/common.gradle"
+
+android {
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation ExternalLibs.coreKtx
+    api ExternalLibs.startup
+
+    implementation ExternalLibs.material
+    implementation ExternalLibs.lifecycleCommons
+
+
+    implementation ExternalLibs.koinCore
+}
