@@ -13,17 +13,9 @@ android {
 }
 
 dependencies {
-
-    // Android X
-    implementation ExternalLibs.appCompat
-    implementation ExternalLibs.navigationFragment
-    implementation ExternalLibs.navigationUi
-
-    // Google
-    implementation ExternalLibs.material
-
-    // Koin
     implementation ExternalLibs.koinViewModel
+    implementation ExternalLibs.material
+    implementation ExternalLibs.navigation
 
     implementation project(InternalLibs.coreArch)
 }

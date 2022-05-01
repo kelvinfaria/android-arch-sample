@@ -25,4 +25,5 @@ android {
 
 dependencies {
     implementation ExternalLibs.coreKtx
+    implementation ExternalLibs.koinCore
 }

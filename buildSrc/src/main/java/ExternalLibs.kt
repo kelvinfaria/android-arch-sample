@@ -2,11 +2,9 @@ object ExternalLibs {
 
     // Android X
     const val coreKtx = "androidx.core:core-ktx:${Versions.coreKtx}"
-    const val appCompat = "androidx.appcompat:appcompat:${Versions.appCompat}"
-    const val navigationFragment = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
-    const val navigationUi = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
+    const val lifecycleCommon = "androidx.lifecycle:lifecycle-common:${Versions.lifecycle}"
+    const val navigation = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
     const val splashScreen = "androidx.core:core-splashscreen:${Versions.splashScreen}"
-    const val lifecycleCommons = "androidx.lifecycle:lifecycle-common:${Versions.lifecycle}"
 
     // Google
     const val material = "com.google.android.material:material:${Versions.material}"
@@ -18,6 +16,6 @@ object ExternalLibs {
 
     // Test
     const val junit = "junit:junit:${Versions.junit}"
-    const val extJunit = "androidx.test.ext:junit:${Versions.extJunit}"
     const val espresso = "androidx.test.espresso:espresso-core:${Versions.espresso}"
+    const val extJunit = "androidx.test.ext:junit:${Versions.extJunit}"
 }

@@ -12,8 +12,6 @@ android {
 }
 
 dependencies {
+    implementation ExternalLibs.lifecycleCommon
     implementation ExternalLibs.material
-    implementation ExternalLibs.lifecycleCommons
-
-    implementation ExternalLibs.koinCore
 }
