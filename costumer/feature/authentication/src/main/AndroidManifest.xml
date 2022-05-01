@@ -1,17 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.kelvinfaria.costumer.authentication">
-
-    <application>
-        <provider
-            android:name="androidx.startup.InitializationProvider"
-            android:authorities="${applicationId}.androidx-startup"
-            android:exported="false"
-            tools:node="merge"/>
-        <meta-data
-            android:name="com.kelvinfaria.costumer.authentication.di.AuthenticationModuleProvider"
-            android:value="@string/androidx_startup"/>
-    </application>
-
-</manifest>
+<manifest package="com.kelvinfaria.costumer.authentication" />

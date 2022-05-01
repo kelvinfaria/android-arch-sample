@@ -12,13 +12,8 @@ android {
 }
 
 dependencies {
-
-    implementation ExternalLibs.coreKtx
-    api ExternalLibs.startup
-
     implementation ExternalLibs.material
     implementation ExternalLibs.lifecycleCommons
-
 
     implementation ExternalLibs.koinCore
 }

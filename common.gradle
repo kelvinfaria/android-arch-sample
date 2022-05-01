@@ -22,3 +22,7 @@ android {
         jvmTarget = Versions.jvmTarget
     }
 }
+
+dependencies {
+    implementation ExternalLibs.coreKtx
+}

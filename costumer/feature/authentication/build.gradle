@@ -15,10 +15,7 @@ android {
 dependencies {
 
     // Android X
-    implementation ExternalLibs.coreKtx
     implementation ExternalLibs.appCompat
-    implementation ExternalLibs.constraintLayout
-    implementation ExternalLibs.legacySupport
     implementation ExternalLibs.navigationFragment
     implementation ExternalLibs.navigationUi
 
