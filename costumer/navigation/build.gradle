@@ -1,0 +1,13 @@
+plugins {
+    id("com.android.library")
+    id("org.jetbrains.kotlin.android")
+}
+
+apply from: "$rootDir/common.gradle"
+
+dependencies {
+    implementation ExternalLibs.navigation
+
+    api project(CostumerLibs.featureAuthentication)
+    api project(CostumerLibs.featureHome)
+}

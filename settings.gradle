@@ -16,5 +16,6 @@ rootProject.name = "Arch Sample"
 
 include ':coreArch',
         ':costumer:app',
-        ':costumer:feature:authentication'
-include ':costumer:feature:home'
+        ':costumer:feature:authentication',
+        ':costumer:feature:home',
+        ':costumer:navigation'

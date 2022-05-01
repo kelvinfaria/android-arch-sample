@@ -22,6 +22,5 @@ dependencies {
     implementation ExternalLibs.splashScreen
 
     implementation project(InternalLibs.coreArch)
-    implementation project(CostumerLibs.featureAuthentication)
-    implementation project(CostumerLibs.featureHome)
+    implementation project(CostumerLibs.navigation)
 }
