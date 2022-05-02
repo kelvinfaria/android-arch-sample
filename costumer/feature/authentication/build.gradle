@@ -16,6 +16,7 @@ dependencies {
     implementation ExternalLibs.koinViewModel
     implementation ExternalLibs.material
     implementation ExternalLibs.navigation
+    implementation ExternalLibs.retrofit
 
     implementation project(InternalLibs.coreArch)
     implementation project(InternalLibs.resources)

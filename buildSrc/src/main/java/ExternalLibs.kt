@@ -14,6 +14,9 @@ object ExternalLibs {
     const val koinAndroid = "io.insert-koin:koin-android:${Versions.koin}"
     const val koinViewModel = "io.insert-koin:koin-androidx-viewmodel:${Versions.koin}"
 
+    // Retrofit
+    const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
+
     // Test
     const val junit = "junit:junit:${Versions.junit}"
     const val espresso = "androidx.test.espresso:espresso-core:${Versions.espresso}"

@@ -21,6 +21,9 @@ object Versions {
     // Koin
     const val koin = "2.2.3"
 
+    // Retrofit
+    const val retrofit = "2.9.0"
+
     // Test
     const val junit = "4.13.2"
     const val extJunit = "1.1.3"
