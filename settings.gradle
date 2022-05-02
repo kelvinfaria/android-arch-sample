@@ -18,4 +18,5 @@ include ':coreArch',
         ':costumer:app',
         ':costumer:feature:authentication',
         ':costumer:feature:home',
-        ':costumer:navigation'
+        ':costumer:navigation',
+        ':designSystem:resources'

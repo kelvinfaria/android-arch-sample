@@ -18,4 +18,5 @@ dependencies {
     implementation ExternalLibs.navigation
 
     implementation project(InternalLibs.coreArch)
+    implementation project(InternalLibs.resources)
 }

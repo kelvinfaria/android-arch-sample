@@ -22,5 +22,6 @@ dependencies {
     implementation ExternalLibs.splashScreen
 
     implementation project(InternalLibs.coreArch)
+    implementation project(InternalLibs.resources)
     implementation project(CostumerLibs.navigation)
 }
