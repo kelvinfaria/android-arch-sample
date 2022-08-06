@@ -24,6 +24,9 @@ object Versions {
     // Retrofit
     const val retrofit = "2.9.0"
 
+    // OkHttp
+    const val okhttp = "4.6.0"
+
     // Test
     const val junit = "4.13.2"
     const val extJunit = "1.1.3"

@@ -19,4 +19,5 @@ include ':coreArch',
         ':costumer:feature:authentication',
         ':costumer:feature:home',
         ':costumer:navigation',
+        ':data:remote',
         ':designSystem:resources'
