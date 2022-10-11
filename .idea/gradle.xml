@@ -18,6 +18,8 @@
             <option value="$PROJECT_DIR$/costumer/feature/authentication" />
             <option value="$PROJECT_DIR$/costumer/feature/home" />
             <option value="$PROJECT_DIR$/costumer/navigation" />
+            <option value="$PROJECT_DIR$/data" />
+            <option value="$PROJECT_DIR$/data/remote" />
             <option value="$PROJECT_DIR$/designSystem" />
             <option value="$PROJECT_DIR$/designSystem/resources" />
           </set>

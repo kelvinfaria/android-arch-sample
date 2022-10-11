@@ -4,6 +4,6 @@ import retrofit2.http.POST
 
 internal interface LoginService {
 
-    @POST("")
+    @POST("test")
     suspend fun login(): Unit
 }

@@ -32,7 +32,7 @@ internal class LoginFragment : Fragment(), KoinAware {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        if (viewModel.a) {
+        if (!viewModel.error) {
             findNavController().navigate(navigation.navigateToHome())
         }
     }

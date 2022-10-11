@@ -15,7 +15,7 @@ internal class App : Application() {
         startKoin {
             modules(
                 navigationModule +
-                        dataRemoteModule
+                        dataRemoteModule(BuildConfig.BASE_URL)
             ).androidContext(applicationContext)
         }
     }
